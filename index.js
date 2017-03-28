@@ -5,7 +5,10 @@
  * Licensed under the Apache license 2.
  *
  * Syntax:
- * {% slideshare [video_id] %} or {% [video_id [width [height]]] %}
+ *{ % slideshare[video_id] %
+ }
+ or { % [video_id[width[height[allowfullscreen]]]] %
+ }
  */
 
 hexo.extend.tag.register('slieshare', function(args) {
@@ -13,11 +16,11 @@ hexo.extend.tag.register('slieshare', function(args) {
         video_id = args[0],
         width = args[1],
         height = args[2],
-        frameborder = args[3],
-        marginwidth = args[4],
-        marginheight = args[5],
         style = "border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;",
-        allowfullscreen = args[6];
+        marginheight = 0,
+        marginwidth = 0,
+        frameborder = 0,
+        allowfullscreen = args[3];
 
     var config = hexo.config.slideshare || {};
 
