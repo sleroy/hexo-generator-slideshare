@@ -5,13 +5,12 @@
  * Licensed under the Apache license 2.
  *
  * Syntax:
- *{ % slideshare[video_id] %
- }
+ *{ % slideshare[video_id] %}
  or { % [video_id[width[height[allowfullscreen]]]] %
  }
  */
 
-hexo.extend.tag.register('slieshare', function(args) {
+hexo.extend.tag.register('slideshare', function(args) {
     var base = '//www.slideshare.net/slideshow/embed_code/key/',
         video_id = args[0],
         width = args[1],
