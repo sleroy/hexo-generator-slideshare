@@ -1,0 +1,29 @@
+{
+    "name": "hexo-generator-slideshare",
+    "version": "0.1.0",
+    "description": "A plugin for the Hexo static site generator that generates an iframe to embed slideshare presentations",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "hexo",
+        "generator",
+        "slideshare",
+        "plugin"
+    ],
+    "author": {
+        "name": "Sylvain Leroy",
+        "url": "http://sylvainleroy.fr/"
+    },
+    "dependencies": {
+        "ejs": "^1.0.0",
+        "utils-merge": "^1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sleroy/hexo-generator-slideshare.git"
+    },
+    "license": "Apache-2.0",
+    "readme": "https://github.com/jamiei/hexo-generator-slideshare/blob/master/README.md"
+}
