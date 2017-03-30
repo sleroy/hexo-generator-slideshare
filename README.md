@@ -1,6 +1,7 @@
 # hexo-generator-slideshare
 
 <a href="https://codeclimate.com/github/sleroy/hexo-generator-slideshare"><img src="https://codeclimate.com/github/sleroy/hexo-generator-slideshare/badges/gpa.svg" /></a>
+![dependencies](https://david-dm.org/sleroy/hexo-generator-slideshare.svg)
 
 Generates a slideshare frame inside your posts.
 
