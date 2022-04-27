@@ -17,7 +17,7 @@
         "url": "http://sylvainleroy.fr/"
     },
     "dependencies": {
-        "ejs": "^1.0.0",
+        "ejs": "^3.1.7",
         "utils-merge": "^1.0.0"
     },
     "repository": {
